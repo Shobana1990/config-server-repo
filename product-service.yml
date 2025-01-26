@@ -15,7 +15,7 @@ spring:
     name: PRODUCT-SERVICE
  # config:
  #   import: configserver:http://localhost:9296
-
+spring.boot.message: Hello product service
 eureka:
   instance:
     prefer-ip-address: true
